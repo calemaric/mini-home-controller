@@ -1,0 +1,11 @@
+{{ define "card" }}
+
+<div class="control-card relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
+	<button ws-send="submit" hx-vals='{"actionType": "{{.ActionType}}"}'>
+	  	<div>
+			<p class="text-slate-500">{{.GetTemplateName}}</p>
+  		</div>
+	</button>
+</div>
+{{ end }}
+
