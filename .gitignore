@@ -26,3 +26,4 @@ go.work.sum
 
 website/node_modules
 web/node_modules
+web/static/*.css
